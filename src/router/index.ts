@@ -8,6 +8,7 @@ import ProfileView from "@/views/ProfileView.vue";
 import HedgehogCombat from "@/views/HedgehogCombat.vue";
 import FanficsHome from "@/views/FanficsHome.vue";
 import tic_tac_toe from "@/views/tic_tac_toe.vue";
+import BlackJack from "@/views/BlackJack.vue";
 
 
 const router = createRouter({
@@ -57,6 +58,11 @@ const router = createRouter({
       path: "/tic_tac_toe",
       name: "tic_tac_toe",
       component: tic_tac_toe
+    },
+    {
+      path: "/BlackJack",
+      name: "BlackJack",
+      component: BlackJack
     }
   ]
 })

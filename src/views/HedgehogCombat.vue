@@ -14,7 +14,7 @@ import {useCurrentTaps} from "@/stores/counter";
     <div class="container-xxl">
       <div class="row">
         <div class="col-8" id="zxc">
-          <img src="/src/components/icons/bdc9d9c5a5527749.png" style="width: 500px; height: 500px; pointer-events: auto" @click="useCurrentTaps().baseTap"  alt=""/>
+          <div style="background-image: url('/src/components/icons/bdc9d9c5a5527749.png'); background-repeat: no-repeat; width: 500px; height: 500px; pointer-events: auto " @click="useCurrentTaps().baseTap" />
         </div>
           <div class="col-2">
             <button type="button" class="btn btn-primary" @click="useCurrentTaps().upgrade_beer()">Купить пива</button>
@@ -64,4 +64,6 @@ img{
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+
+
 </style>
